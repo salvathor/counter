@@ -14,6 +14,10 @@ class CounterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var url_servicio = Bundle.main.object(forInfoDictionaryKey: "API_BASE_URL")
+        print(url_servicio!)
+        
         view.backgroundColor = .systemBackground
 
         // Configuración de subviews y constraints

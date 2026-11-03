@@ -1,9 +1,5 @@
-//
-//  Config.xcconfig
-//  counter_uikit
-//
-//  Created by Salvador Lopez on 03/11/26.
-//
+API_BASE_URL = https:/$()/google.com
+APP_DISPLAY_NAME = MiApp PRD
+PRODUCT_BUNDLE_IDENTIFIER = com.google.miapp.prd
 
-// Configuration settings file format documentation can be found at:
-// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
